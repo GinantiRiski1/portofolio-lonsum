@@ -13,7 +13,7 @@
 
 **Dashboard kecerdasan buatan untuk memantau, menganalisis, dan memprediksi produksi perkebunan kelapa sawit PT London Sumatra Indonesia (Lonsum)**
 
-[🎬 Demo Video](#-demo) ·[🚀 Quick Start](https://portofolio-lonsum-production.up.railway.app) · [📊 Features](#-fitur-utama) · [📖 Docs](#-business-understanding)
+[🎬 Demo Video](#-demo) · [🚀Cobain Aplikasinya!](https://portofolio-lonsum-production.up.railway.app)
 
 ---
 
@@ -53,8 +53,8 @@
 
 ### 🌐 Live Demo
 
-> 🔗 **[Coba Aplikasi Langsung →](https://your-deployed-url.com)**  
-> *(Upload file `sample_data.csv` yang tersedia di repo ini untuk mencoba)*
+> 🔗 **[Coba Aplikasi Langsung →](https://portofolio-lonsum-production.up.railway.app)**  
+> *(Upload file yang tersedia di repo ini untuk mencoba)*
 
 </div>
 
@@ -129,43 +129,43 @@ Raw CSV Data → Automated Pipeline → 10 Charts + ML Model → AI Insights + F
 ┌─────────────────────────────────────────────────────────────────┐
 │                     LONSUM LEAP v4.0                            │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  📁 CSV Upload                                                   │
-│       │                                                          │
-│       ▼                                                          │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │ Data Quality  │───▶│   Cleaning   │───▶│  Feature Eng │      │
-│  │   Scoring    │    │  & Imputing  │    │  + Encoding  │      │
-│  └──────────────┘    └──────────────┘    └──────────────┘      │
-│                                                 │                │
-│                                                 ▼                │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │   Charts     │◀───│  10 Visuals  │◀───│  ML Training │      │
-│  │  (Matplotlib)│    │  Generation  │    │ (3 Models)   │      │
-│  └──────────────┘    └──────────────┘    └──────────────┘      │
-│         │                                       │                │
-│         ▼                                       ▼                │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │  NVIDIA NIM  │    │  Forecast    │    │   Alerts     │      │
-│  │  AI Insights │    │  3 Months    │    │  🔴🟡🟢     │      │
-│  └──────────────┘    └──────────────┘    └──────────────┘      │
-│         │                   │                   │                │
+│                                                                 │
+│  📁 CSV Upload                                                  │
+│       │                                                         │
+│       ▼                                                         │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │ Data Quality  │───▶│   Cleaning   │───▶│Feature Eng │       │
+│  │   Scoring    │    │  & Imputing  │    │  + Encoding  │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│                                                 │               │
+│                                                 ▼               │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │   Charts     │◀───│  10 Visuals  │◀───│ ML Training │       │
+│  │  (Matplotlib)│    │  Generation  │    │ (3 Models)   │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│         │                                       │               │
+│         ▼                                       ▼               │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │  NVIDIA NIM  │    │  Forecast    │    │   Alerts     │       │
+│  │  AI Insights │    │  3 Months    │    │   🔴🟡🟢    │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│         │                   │                   │               │
 │         └───────────────────┴───────────────────┘               │
-│                             │                                    │
-│                             ▼                                    │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              FASTAPI BACKEND (main.py)                   │   │
-│  │   /api/analyze  /api/predict  /api/estate/{name}        │   │
-│  │   /api/download/pdf  /api/download/excel  ...           │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                             │                                    │
-│                             ▼                                    │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              HTML/CSS/JS FRONTEND (embedded)             │   │
-│  │   Landing Page → Sidebar Dashboard → 10 Chart Cards     │   │
-│  │   What-If Simulator → Estate Modal → Download Bar       │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                  │
+│                             │                                   │
+│                             ▼                                   │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │             FASTAPI BACKEND (main.py)                   │    │
+│  │   /api/analyze  /api/predict  /api/estate/{name}        │    │
+│  │   /api/download/pdf  /api/download/excel  ...           │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                             │                                   │
+│                             ▼                                   │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │             HTML/CSS/JS FRONTEND (embedded)             │    │
+│  │   Landing Page → Sidebar Dashboard → 10 Chart Cards     │    │
+│  │   What-If Simulator → Estate Modal → Download Bar       │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -205,18 +205,8 @@ lonsum-leap/
 ├── 📄 main.py                    # FastAPI backend + Frontend HTML (single file)
 ├── 📋 requirements.txt           # Python dependencies
 ├── 📖 README.md                  # Dokumentasi ini
-├── 📊 sample_data.csv            # Sample data untuk testing (optional)
-│
-└── 📁 screenshots/               # Screenshots untuk README (buat folder ini)
-    ├── landing_page.png          # Landing page hero
-    ├── thumbnail_yt.png          # YouTube thumbnail
-    ├── dashboard_kpi.png         # KPI cards + alert banner
-    ├── chart_trend.png           # Trend chart + AI insight
-    ├── forecast_table.png        # Forecast 3 bulan table
-    ├── whatif_simulator.png      # What-If simulator
-    ├── estate_modal.png          # Estate drilldown modal
-    ├── pdf_report.png            # PDF annual report preview
-    └── data_quality.png          # Data quality score
+└── 📊 sample_data.csv            # Sample data untuk testing 
+
 ```
 
 ---
@@ -238,8 +228,8 @@ Pastikan kamu sudah menginstall:
 ### Step 1 — Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lonsum-leap.git
-cd lonsum-leap
+git clone https://github.com/GinantiRiski1/portofolio-lonsum.git
+cd portofolio-lonsum
 ```
 
 ---
@@ -284,7 +274,7 @@ pip list | grep -E "fastapi|sklearn|reportlab|pandas"
 Buka file `main.py` dan temukan baris berikut (sekitar baris 25):
 
 ```python
-NVIDIA_API_KEY  = "YOUR_NVIDIA_API_KEY_HERE"   # ← Ganti ini
+NVIDIA_API_KEY  = "YOUR_NVIDIA_API_KEY_HERE"   # ← Ganti ini dengan ini "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"
 NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 NVIDIA_MODEL    = "meta/llama-4-maverick-17b-128e-instruct"
 ```
