@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![Lonsum LEAP Banner](screenshots/landing_page.png)
+<img width="406" height="124" alt="image" src="https://github.com/user-attachments/assets/14b92d89-a408-49a3-941f-8fb864755eef" />
+
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
