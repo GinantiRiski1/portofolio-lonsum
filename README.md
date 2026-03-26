@@ -535,24 +535,16 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 ---
 
 ### 7. Estate Drilldown Modal
-
-
-
----
-
-### 7. PDF Annual Report Preview
-
-![PDF Report](screenshots/pdf_report.png)
-
-> 📸 *Screenshot: Tampilan PDF yang dihasilkan — cover page + section produksi*
+![WhatsApp Image 2026-03-26 at 21 51 00](https://github.com/user-attachments/assets/9f210984-b5bf-47df-b36b-62a135ddb541)
+<br>
+![WhatsApp Image 2026-03-26 at 21 50 15](https://github.com/user-attachments/assets/3b9d938f-823c-4ac1-b7f1-fa9f3ed56de4)
 
 ---
 
-### 8. Data Quality Score
+### 8. PDF Annual Report Preview
 
-![Data Quality](screenshots/data_quality.png)
+![WhatsApp Image 2026-03-26 at 21 53 02](https://github.com/user-attachments/assets/5506ef65-cd0e-45ee-b283-377cfefffd50)
 
-> 📸 *Screenshot: Section Data Quality — 4 gauge cards + chart completeness/outlier/score*
 
 ---
 
@@ -625,13 +617,13 @@ Forecast:  Best model → 3 months ahead per estate
 
 <div align="center">
 
-### Nama Kamu
+### Ginanti Riski
 
 **Data Analytics · Digital Transformation · Machine Learning**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube)](https://youtube.com/@YOUR_CHANNEL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ginanti-riski-483b7a362/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/GinantiRiski1)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@GinantiRiski)
 
 ---
 
@@ -648,7 +640,7 @@ Forecast:  Best model → 3 months ahead per estate
 ```
 MIT License
 
-Copyright (c) 2025 [Nama Kamu]
+Copyright (c) 2026 [Ginanti Riski]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
