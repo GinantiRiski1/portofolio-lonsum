@@ -478,8 +478,14 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 ---
 
 ### 2. Dashboard Overview — Upload Dokumen dan Proses Analis
+<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/576cf77f-f327-459a-9289-4d9b6d86869f" />
+<br>
+![WhatsApp Image 2026-03-26 at 21 34 28](https://github.com/user-attachments/assets/6994515c-fedd-4836-8868-3d98190f234f)
 
+<br>
+![WhatsApp Image 2026-03-26 at 21 32 47](https://github.com/user-attachments/assets/e942a3b5-4810-4c69-a764-16dfcfb790bb)
 
+---
 ### 3. Dashboard Overview — KPI Cards & Alert Banner
 
 ![WhatsApp Image 2026-03-26 at 21 18 24](https://github.com/user-attachments/assets/4812dc16-64bc-4b5b-afdb-40d4f79ef1f5)
@@ -501,7 +507,6 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 ![WhatsApp Image 2026-03-26 at 21 25 19](https://github.com/user-attachments/assets/f8311be1-6fe2-4d11-8ee1-da183de8dff0)
 <br>
 ![WhatsApp Image 2026-03-26 at 21 26 12](https://github.com/user-attachments/assets/ea7cc851-3611-429b-9072-968823d53dc3)
-
 
 ---
 
