@@ -47,7 +47,7 @@ C_LIGHT  = "#e8f5ee"
 C_GRAY   = "#94a3b8"
 PALETTE  = [C_GREEN, C_TEAL, C_GOLD, C_LIME, C_ORANGE, C_RED, "#457b9d", "#7b5ea7"]
 
-app = FastAPI(title="Lonsum LEAP Analytics", version="3.1.0")
+app = FastAPI(title="Lonsum LEAP Analytics", version="1.0.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 # Global state untuk menyimpan hasil analisis terakhir
