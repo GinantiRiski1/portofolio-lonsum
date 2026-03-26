@@ -463,15 +463,17 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 
 ---
 
-## 🖥️ Screenshots
+## 🖥️ Tampilan Halaman Website
 
-> 📸 **Panduan Screenshot** — Ambil screenshot berikut dari web untuk melengkapi README ini
+
 
 ### 1. Landing Page
 
-![Landing Page](screenshots/landing_page.png)
-
-> 📸 *Screenshot: Tampilan penuh landing page dengan hero section, features grid, dan step-by-step guide*
+![WhatsApp Image 2026-03-26 at 21 11 43](https://github.com/user-attachments/assets/469e0a6c-a95a-40ab-a36d-73d7a15b7adc)
+<br>
+![WhatsApp Image 2026-03-26 at 21 12 25](https://github.com/user-attachments/assets/d475b6ec-c4c2-4150-9e1a-1942d3eb240b)
+<br>
+![WhatsApp Image 2026-03-26 at 21 14 07](https://github.com/user-attachments/assets/76433808-fa76-4482-9ca1-5d45e0fe7519)
 
 ---
 
