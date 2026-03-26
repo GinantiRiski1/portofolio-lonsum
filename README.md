@@ -506,10 +506,21 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 ![WhatsApp Image 2026-03-26 at 21 25 19](https://github.com/user-attachments/assets/f8311be1-6fe2-4d11-8ee1-da183de8dff0)
 <br>
 ![WhatsApp Image 2026-03-26 at 21 26 12](https://github.com/user-attachments/assets/ea7cc851-3611-429b-9072-968823d53dc3)
+<br>
+![WhatsApp Image 2026-03-26 at 21 46 30](https://github.com/user-attachments/assets/884162c3-62fa-4e16-a68b-b9060e6a5100)
+<br>
+![WhatsApp Image 2026-03-26 at 21 46 44](https://github.com/user-attachments/assets/4cd21548-41e7-4888-9c7a-7bc6aea39959)
 
 ---
 
-### 4. Forecast 3 Bulan
+### 4. Model Machine Learning
+![WhatsApp Image 2026-03-26 at 21 44 09](https://github.com/user-attachments/assets/5174658f-1b6e-42e2-9355-f2ed5babb0bb)
+<br>
+![WhatsApp Image 2026-03-26 at 21 44 59](https://github.com/user-attachments/assets/0b568dbf-bb04-4799-8a3c-5860c757cdf6)
+
+---
+
+### 5. Forecast 3 Bulan
 
 ![WhatsApp Image 2026-03-26 at 21 27 16](https://github.com/user-attachments/assets/1857166a-7c36-4eeb-ae55-6a7ad90f6a3b)
 <br>
@@ -517,13 +528,13 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 
 ---
 
-### 5. What-If Simulator
+### 6. What-If Simulator
 
 ![WhatsApp Image 2026-03-26 at 21 28 56](https://github.com/user-attachments/assets/a9a85fa0-8b32-41de-8d0b-c6b8b6136ca0)
 
 ---
 
-### 6. Estate Drilldown Modal
+### 7. Estate Drilldown Modal
 
 
 
