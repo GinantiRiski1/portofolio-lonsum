@@ -541,10 +541,19 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 
 ---
 
-### 8. PDF Annual Report Preview
+### 8. Report Preview
 
 ![WhatsApp Image 2026-03-26 at 21 53 02](https://github.com/user-attachments/assets/5506ef65-cd0e-45ee-b283-377cfefffd50)
-
+<br>
+![WhatsApp Image 2026-03-26 at 22 07 15](https://github.com/user-attachments/assets/9cb8067c-11bf-4a8e-bcfc-394cc3497d6c)
+<br>
+![WhatsApp Image 2026-03-26 at 22 07 46](https://github.com/user-attachments/assets/fee86174-5ce4-4b08-bfad-df0bde5bd698)
+<br>
+![WhatsApp Image 2026-03-26 at 22 08 09](https://github.com/user-attachments/assets/d308b9a7-7bbe-4cb9-9390-ca8e2b2fc404)
+<br>
+![WhatsApp Image 2026-03-26 at 22 08 27](https://github.com/user-attachments/assets/cb4de6eb-4b82-451e-915a-110b7fbf7be9)
+<br>
+![WhatsApp Image 2026-03-26 at 22 08 39](https://github.com/user-attachments/assets/a2bb5c87-a3f4-48cd-afe7-002f407ef0c8)
 
 ---
 
