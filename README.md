@@ -510,6 +510,9 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 ![WhatsApp Image 2026-03-26 at 21 46 30](https://github.com/user-attachments/assets/884162c3-62fa-4e16-a68b-b9060e6a5100)
 <br>
 ![WhatsApp Image 2026-03-26 at 21 46 44](https://github.com/user-attachments/assets/4cd21548-41e7-4888-9c7a-7bc6aea39959)
+<br>
+![WhatsApp Image 2026-03-26 at 22 12 51](https://github.com/user-attachments/assets/0a908b4e-9771-4ef8-8027-9e765f370849)
+
 
 ---
 
