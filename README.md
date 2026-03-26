@@ -45,7 +45,7 @@
 
 ### 📺 Video Demo Lengkap
 
-[![Demo Video](screenshots/thumbnail_yt.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
 
 > 🔗 **[Tonton Demo di YouTube →](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
 
