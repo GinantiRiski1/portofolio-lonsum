@@ -650,7 +650,7 @@ Forecast:  Best model → 3 months ahead per estate
 ```
 MIT License
 
-Copyright (c) 2026 [Ginanti Riski]
+Copyright (c) 2026 Ginanti Riski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
