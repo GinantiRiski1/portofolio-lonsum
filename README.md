@@ -479,10 +479,8 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 
 ### 2. Dashboard Overview — Upload Dokumen dan Proses Analis
 ![WhatsApp Image 2026-03-26 at 21 33 51](https://github.com/user-attachments/assets/5b4b2b4b-5d3d-4725-a895-4d535738eaab)
-
 <br>
 ![WhatsApp Image 2026-03-26 at 21 34 28](https://github.com/user-attachments/assets/38784eb2-1436-4b37-8d70-de79341c50bb)
-
 <br>
 ![WhatsApp Image 2026-03-26 at 21 32 47](https://github.com/user-attachments/assets/b7f50503-5e9b-4d04-a21f-7524a0370f84)
 
