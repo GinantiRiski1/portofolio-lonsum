@@ -1628,18 +1628,20 @@ def build_pdf_report(kpis: dict, model_results: list, forecast_3m: list,
         return Paragraph(f"<font color='#c9a84c'>◆</font> {txt}", sec_head)
 
     def insight_box(text, title="AI Insight"):
-        rows = [[Paragraph(f"<b>🤖 {title}</b>", ParagraphStyle("IH", fontName="Helvetica-Bold",
-                           fontSize=8, textColor=colors.Color(0.1,0.42,0.24))),
-                 Paragraph(text or "—", insight_s)]]
-        t = Table(rows, colWidths=[None])
+        W_doc = A4[0] - 40*mm
+        rows = [
+            [Paragraph(f"<b>🤖 {title}</b>", ParagraphStyle("IH2", fontName="Helvetica-Bold",
+                    fontSize=8, textColor=colors.Color(0.1,0.42,0.24)))],
+            [Paragraph(text or "—", insight_s)],
+        ]
+        t = Table(rows, colWidths=[W_doc])   # ← 1 kolom, 2 baris
         t.setStyle(TableStyle([
-            ("BACKGROUND", (0,0), (-1,0), colors.Color(0.95,0.99,0.97)),
-            ("BACKGROUND", (0,1), (-1,-1), colors.Color(0.97,0.995,0.98)),
-            ("BOX", (0,0), (-1,-1), 0.5, colors.Color(0.1,0.42,0.24,0.25)),
-            ("LEFTPADDING", (0,0), (-1,-1), 10),
-            ("RIGHTPADDING", (0,0), (-1,-1), 10),
-            ("TOPPADDING", (0,0), (-1,-1), 6),
-            ("BOTTOMPADDING", (0,0), (-1,-1), 6),
+            ("BACKGROUND",(0,0),(-1,0), colors.Color(0.93,0.98,0.95)),
+            ("BACKGROUND",(0,1),(-1,1), colors.Color(0.97,0.995,0.98)),
+            ("BOX",(0,0),(-1,-1), 0.5, colors.Color(0.1,0.42,0.24,0.3)),
+            ("LINEBELOW",(0,0),(-1,0), 0.5, colors.Color(0.1,0.42,0.24,0.2)),
+            ("LEFTPADDING",(0,0),(-1,-1),10), ("RIGHTPADDING",(0,0),(-1,-1),10),
+            ("TOPPADDING",(0,0),(-1,-1),6),  ("BOTTOMPADDING",(0,0),(-1,-1),6),
         ]))
         return t
 
@@ -1651,9 +1653,16 @@ def build_pdf_report(kpis: dict, model_results: list, forecast_3m: list,
 
     # ═══════════════════════════ COVER PAGE ═══════════════════════════
     # We build cover using a custom flowable that draws on canvas
-    class CoverPage(object):
-        def wrap(self, aW, aH): return aW, aH
-        def drawOn(self, canvas, x, y):
+    # class CoverPage(object):
+    #     def wrap(self, aW, aH): return aW, aH
+    #     def drawOn(self, canvas, x, y):
+    #         canvas.saveState()
+
+    from reportlab.platypus.flowables import Flowable as _Flowable
+    class CoverPage(_Flowable):
+        def wrap(self, aW, aH): return (aW, aH)
+        def draw(self):                          # ← ganti drawOn → draw, hapus canvas param
+            canvas = self.canv                   # ← ambil canvas dari self.canv
             canvas.saveState()
             # Full dark bg
             canvas.setFillColorRGB(0.04, 0.09, 0.16)
@@ -2110,6 +2119,11 @@ def process_dataset(raw: pd.DataFrame) -> dict:
     piv = df.groupby(["year","estate"])["production_tons"].sum().unstack(fill_value=0)
     fig, ax = plt.subplots(figsize=(10, 5))
     piv.plot(kind="bar", stacked=True, ax=ax, color=PALETTE[:len(piv.columns)], edgecolor="white", width=0.6)
+    # Tambah total label di atas tiap bar
+    totals = piv.sum(axis=1)
+    for i, (idx, total) in enumerate(totals.items()):
+        ax.text(i, total + totals.max()*0.01, f"{total:,.0f}",
+                ha="center", va="bottom", fontsize=8.5, fontweight="700", color=C_DARK)
     ax.set_title("Produksi Tahunan per Estate", fontsize=13, fontweight="bold", color=C_DARK)
     ax.set_xlabel("Tahun"); ax.set_ylabel("Total Produksi (ton)"); ax.tick_params(axis="x", rotation=0)
     ax.legend(title="Estate", bbox_to_anchor=(1.01,1), loc="upper left", fontsize=9)
@@ -2123,6 +2137,10 @@ def process_dataset(raw: pd.DataFrame) -> dict:
                     medianprops=dict(color=C_GOLD, lw=2.5),
                     whiskerprops=dict(color=C_GRAY), capprops=dict(color=C_GRAY),
                     flierprops=dict(marker="o", color=C_RED, markersize=4, alpha=0.5))
+    for i, e in enumerate(eo):
+        med = float(df[df["estate"]==e]["production_tons"].median())
+        ax.text(i+1, med, f"{med:.0f}", ha="center", va="bottom",
+                fontsize=7.5, fontweight="700", color=C_DARK, zorder=6)
     for i, p in enumerate(bp["boxes"]): p.set_facecolor(PALETTE[i%len(PALETTE)]); p.set_alpha(0.7)
     ax.set_title("Distribusi Produksi per Estate", fontsize=13, fontweight="bold", color=C_DARK)
     ax.set_xlabel("Estate"); ax.set_ylabel("Produksi (ton)"); ax.tick_params(axis="x", rotation=20)
@@ -2256,7 +2274,7 @@ def compute_comparative(df_a: pd.DataFrame, df_b: pd.DataFrame,
         df["productivity_ton_per_ha"] = df["production_tons"] / df["plantation_area_ha"]
         for col in df.select_dtypes("number").columns:
             df[col].fillna(df[col].median(), inplace=True)
-
+    
     total_a = float(df_a["production_tons"].sum())
     total_b = float(df_b["production_tons"].sum())
     chg = round((total_b - total_a) / total_a * 100, 1) if total_a else 0
@@ -2286,10 +2304,11 @@ def compute_comparative(df_a: pd.DataFrame, df_b: pd.DataFrame,
     axes[1].set_title(f"Perubahan YoY (%) — {label_a} → {label_b}", fontweight="bold")
     axes[1].set_ylabel("Perubahan (%)")
     axes[1].tick_params(axis="x", rotation=20)
+    
     for i, (estate, val) in enumerate(zip(all_estates, estate_chg.values)):
         if not np.isnan(val):
             axes[1].text(i, val + (0.5 if val >= 0 else -1), f"{val:+.1f}%", ha="center", fontsize=8.5, fontweight="700", color=C_DARK)
-
+    
     fig.tight_layout(pad=1.5)
     comp_chart = fig_b64(fig, dpi=135)
 
