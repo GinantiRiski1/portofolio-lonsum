@@ -477,43 +477,51 @@ date,estate,plantation_area_ha,rainfall_mm,workers,fertilizer_kg,production_tons
 
 ---
 
-### 2. Dashboard Overview — KPI Cards & Alert Banner
+### 2. Dashboard Overview — Upload Dokumen dan Proses Analis
 
-![Dashboard KPI](screenshots/dashboard_kpi.png)
 
-> 📸 *Screenshot: Section Overview dengan Data Quality Score, Alert Banner 🔴🟡🟢, dan 6 KPI cards*
+### 3. Dashboard Overview — KPI Cards & Alert Banner
 
+![WhatsApp Image 2026-03-26 at 21 18 24](https://github.com/user-attachments/assets/4812dc16-64bc-4b5b-afdb-40d4f79ef1f5)
+<br>
+![WhatsApp Image 2026-03-26 at 21 19 18](https://github.com/user-attachments/assets/f0f06409-68f8-45e7-a1b3-91aae45d3145)
 ---
+### 4. Dashboard Overview — Laporan Kualitas Data
+![WhatsApp Image 2026-03-26 at 21 21 02](https://github.com/user-attachments/assets/23ad0fc0-247b-4465-ae1c-d3036366c2c8)
 
-### 3. Trend Analysis + AI Insight
+### 5. Dashboard Overview — Unduh Laporan Operasional
+![WhatsApp Image 2026-03-26 at 21 21 50](https://github.com/user-attachments/assets/2a2ba2bd-22b8-4c3e-9026-7c4b9e542607)
 
-![Chart Trend](screenshots/chart_trend.png)
+### 6. Trend Analysis + AI Insight
 
-> 📸 *Screenshot: Chart tren produksi bulanan dengan rolling average + kotak AI Insight di bawahnya*
+![WhatsApp Image 2026-03-26 at 21 24 03](https://github.com/user-attachments/assets/4bc2a50a-6377-4321-992b-1f6d665ea4e6)
+<br>
+![WhatsApp Image 2026-03-26 at 21 24 42](https://github.com/user-attachments/assets/f8e5d010-13dc-49dc-8996-7185e7d1a393)
+<br>
+![WhatsApp Image 2026-03-26 at 21 25 19](https://github.com/user-attachments/assets/f8311be1-6fe2-4d11-8ee1-da183de8dff0)
+<br>
+![WhatsApp Image 2026-03-26 at 21 26 12](https://github.com/user-attachments/assets/ea7cc851-3611-429b-9072-968823d53dc3)
+
 
 ---
 
 ### 4. Forecast 3 Bulan
 
-![Forecast Table](screenshots/forecast_table.png)
-
-> 📸 *Screenshot: Chart forecast dengan error bars (widening CI) + tabel forecast 3 bulan*
+![WhatsApp Image 2026-03-26 at 21 27 16](https://github.com/user-attachments/assets/1857166a-7c36-4eeb-ae55-6a7ad90f6a3b)
+<br>
+![WhatsApp Image 2026-03-26 at 21 28 01](https://github.com/user-attachments/assets/f9ea9579-7825-49f1-ab14-d38f199e193c)
 
 ---
 
 ### 5. What-If Simulator
 
-![What-If Simulator](screenshots/whatif_simulator.png)
-
-> 📸 *Screenshot: Form simulator dengan slider/input + hasil prediksi real-time di kanan*
+![WhatsApp Image 2026-03-26 at 21 28 56](https://github.com/user-attachments/assets/a9a85fa0-8b32-41de-8d0b-c6b8b6136ca0)
 
 ---
 
 ### 6. Estate Drilldown Modal
 
-![Estate Modal](screenshots/estate_modal.png)
 
-> 📸 *Screenshot: Modal popup analisis estate — chart tren vs fleet + 4 KPI cards + AI insight*
 
 ---
 
