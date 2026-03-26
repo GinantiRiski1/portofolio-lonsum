@@ -13,7 +13,7 @@
 
 **Dashboard kecerdasan buatan untuk memantau, menganalisis, dan memprediksi produksi perkebunan kelapa sawit PT London Sumatra Indonesia (Lonsum)**
 
-[🎬 Demo Video](#-demo) · [🚀 Quick Start](portofolio-lonsum-production.up.railway.app) · [📊 Features](#-fitur-utama) · [📖 Docs](#-business-understanding)
+[🎬 Demo Video](#-demo) · [🚀 Quick Start](#portofolio-lonsum-production.up.railway.app) · [📊 Features](#-fitur-utama) · [📖 Docs](#-business-understanding)
 
 ---
 
