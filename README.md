@@ -655,7 +655,7 @@ copies of the Software...
 
 **⭐ Star repo ini jika bermanfaat!**
 
-[![Star History](https://img.shields.io/github/stars/YOUR_USERNAME/lonsum-leap?style=social)](https://github.com/YOUR_USERNAME/lonsum-leap)
+[![Star History](https://img.shields.io/github/stars/YOUR_USERNAME/lonsum-leap?style=social)](https://github.com/GinantiRiski1/portofolio-lonsum)
 
 *LEAP v4.0 · PT London Sumatra Indonesia · 2025*
 
