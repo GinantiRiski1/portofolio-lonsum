@@ -71,13 +71,13 @@ USERS_DB = {
     "admin": {
         "username": "admin",
         "full_name": "Administrator Lonsum",
-        "hashed_password": _hash("lonsum2024"),
+        "hashed_password": _hash("lonsum"),
         "role": "admin"
     },
     "analyst": {
         "username": "analyst",
         "full_name": "Data Analyst",
-        "hashed_password": _hash("analyst123"),
+        "hashed_password": _hash("lonsum"),
         "role": "analyst"
     }
 }
