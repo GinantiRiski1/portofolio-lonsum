@@ -21,7 +21,7 @@
     <img src="https://img.shields.io/badge/🌐 Live Demo-Klik di sini-1a6b3c?style=for-the-badge"/>
   </a>
   &nbsp;
-  <a href="https://youtube.com/your-video-link">
+  <a href="https://youtu.be/rya8no1WNzw">
     <img src="https://img.shields.io/badge/🎥 Video Demo-Tonton di YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
   &nbsp;
