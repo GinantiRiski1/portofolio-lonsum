@@ -376,16 +376,15 @@ pip install reportlab==4.2.0 Pillow==10.3.0
 fastapi==0.111.0
 uvicorn==0.30.1
 python-multipart==0.0.9
-pandas==2.2.2
+pandas==2.1.2
 numpy==1.26.4
 matplotlib==3.9.0
 seaborn==0.13.2
 scikit-learn==1.5.0
 openpyxl==3.1.4
-xlsxwriter==3.2.0
-httpx==0.27.0
 reportlab==4.2.0
-Pillow==10.3.0
+httpx==0.27.0
+python-jose[cryptography]==3.3.0
 ```
 
 ---
