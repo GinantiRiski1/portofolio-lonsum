@@ -51,7 +51,7 @@
 
 ### 🌐 Live Demo
 
-> 🔗 **[Coba Aplikasi Langsung →](https://portofolio-lonsum-production.up.railway.app)**  
+> 🔗 **[Coba Aplikasi Langsung →](https://lonsum.up.railway.app)**  
 > *(Upload file yang tersedia di repo ini untuk mencoba)*
 
 </div>
