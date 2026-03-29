@@ -229,9 +229,9 @@ Klik nama estate di dashboard → modal popup dengan:
 <summary><b>📊 Perbandingan YoY Otomatis</b></summary>
 <br/>
 
-Dua mode tersedia:
+mode tersedia:
 1. **Auto split** — Upload 1 CSV multi-tahun, sistem otomatis memisahkan per tahun
-2. **Pair mode** — Upload 2 CSV terpisah (misal: 2023.csv vs 2024.csv)
+
 
 Output: grouped bar per estate, % change per estate, summary card, dan AI insight komparatif.
 
@@ -260,122 +260,120 @@ Skor gabungan 0–100 divisualisasikan dengan donut gauge berwarna (hijau/kuning
 > Screenshot diambil langsung dari aplikasi yang sudah di-deploy di Railway.
 
 ### 1. Landing Page — Hero Section
-<!-- 📷 SS: Tampilkan halaman landing penuh — hero title "LEAP Plantation Intelligence", tagline, tombol "Mulai Analisis", dan grid 8 fitur di bawahnya -->
-![Landing Page](docs/01-landing-page.png)
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/79391bd9-e0ab-47fd-8e80-f3e732dc478e" />
+<br>
+<img width="1912" height="871" alt="image" src="https://github.com/user-attachments/assets/9b579755-9b20-4b5f-bfff-a027a23baa6a" />
+<br>
+<img width="1908" height="746" alt="image" src="https://github.com/user-attachments/assets/d107fa03-9025-4b18-8759-6479fbcc8daa" />
 
 ---
 
 ### 2. Halaman Login
-<!-- 📷 SS: Form login centered — logo Lonsum hijau di atas, input username & password, tombol "Masuk", background gelap -->
-![Login](docs/02-login.png)
+<img width="1745" height="835" alt="image" src="https://github.com/user-attachments/assets/c0bfbb47-7d32-4fb5-9613-b3d0dd6a92e4" />
+
+---
+### 3. Dashboard - Upload Data
+<img width="1907" height="868" alt="image" src="https://github.com/user-attachments/assets/53823e2c-786f-474b-8502-cd18b48d9cc3" />
+<br>
+<img width="1918" height="877" alt="image" src="https://github.com/user-attachments/assets/b751e04e-9585-4f89-9a64-14d873f388f8" />
+
+---
+### 4. Dashboard — KPI Overview
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/dce21a86-86e0-46b6-80f5-80da8e37f4c3" />
+
+---
+### 5. Alert Produksi Real-time
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/f1a6a9a7-0c75-43ed-9008-19fc9c00bde7" />
+
+---
+### 6. Data Quality Report
+<img width="1913" height="882" alt="image" src="https://github.com/user-attachments/assets/55d993a5-e513-482a-b1d6-f95375790ed8" />
 
 ---
 
-### 3. Dashboard — KPI Overview
-<!-- 📷 SS: Setelah upload berhasil — 6 KPI card di atas (Total Produksi, Avg Produktivitas, Estate Terbaik, Bulan Puncak, Jumlah Estate, Total Record), topbar gelap, sidebar kiri -->
-![KPI Overview](docs/03-dashboard-kpi.png)
+### 7. Tren Produksi Bulanan
+<img width="1913" height="875" alt="image" src="https://github.com/user-attachments/assets/918114e6-8156-4fee-ab7c-d47805927417" />
 
 ---
 
-### 4. Alert Produksi Real-time
-<!-- 📷 SS: Section alert — tampilkan 3 alert card berderet: 1 merah (Kritis), 1 kuning (Perhatian), 1 hijau (Normal), masing-masing dengan nama estate dan pesan -->
-![Alert](docs/04-alert.png)
+### 8. Profil Musiman & Produksi Tahunan per Estate
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/9bd22f39-c67e-4737-b7b8-8f481ade1ab1" />
 
 ---
 
-### 5. Data Quality Report
-<!-- 📷 SS: Section data quality — donut gauge skor di kiri, bar 3 komponen di tengah, bar outlier per kolom di kanan. Tampilkan juga 4 card skor di atasnya -->
-![Data Quality](docs/05-data-quality.png)
-
----
-
-### 6. Tren Produksi Bulanan
-<!-- 📷 SS: Chart time series area + garis rolling avg 3 bulan (kuning putus-putus), AI insight hijau di bawah chart -->
-![Tren Produksi](docs/06-tren-produksi.png)
-
----
-
-### 7. Profil Musiman & Produksi Tahunan per Estate
-<!-- 📷 SS: Dua chart berdampingan — kiri: bar musiman 12 bulan dengan warna merah/hijau/teal, kanan: stacked bar tahunan per estate dengan legenda -->
-![Musiman & Tahunan](docs/07-musiman-tahunan.png)
-
----
-
-### 8. Boxplot Distribusi & Produktivitas per Hektar
-<!-- 📷 SS: Dua chart berdampingan — kiri: boxplot distribusi per estate dengan median label, kanan: horizontal bar produktivitas/ha merah-hijau dengan nilai -->
-![Distribusi & Prodha](docs/08-distribusi-prodha.png)
+### 9. Boxplot Distribusi & Produktivitas per Hektar
+<img width="1919" height="889" alt="image" src="https://github.com/user-attachments/assets/359b46ab-38bb-49ad-91b6-b25c7956d5ca" />
 
 ---
 
 ### 9. Estate Drilldown Modal
-<!-- 📷 SS: Klik salah satu estate → modal popup muncul di atas dashboard — tampilkan 4 metrik card di atas, chart tren vs fleet (2 panel), AI insight di bawah -->
-![Estate Drilldown](docs/09-estate-drilldown.png)
+<img width="1513" height="168" alt="image" src="https://github.com/user-attachments/assets/efb8d15c-7178-489d-9449-5ed9a0c54604" />
+<br>
+<img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/fec86a6b-f95e-4d5e-a043-bbc7471ca9c8" />
 
 ---
 
 ### 10. Korelasi & Driver Produksi
-<!-- 📷 SS: Dua chart berdampingan — kiri: heatmap korelasi dengan anotasi nilai, kanan: horizontal bar korelasi vs produksi dengan warna hijau/merah -->
-![Korelasi](docs/10-korelasi.png)
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/b44cac21-4401-4d12-b0fd-edbfacd7e941" />
+
+---
+### 11. Performa dan Evaluasi Model Machine Learning
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/b3ee7790-113b-467c-a7fe-7a52aae81461" />
+<br>
+<img width="1911" height="877" alt="image" src="https://github.com/user-attachments/assets/b23cd2d0-c4c9-4ee5-9a3e-d3035c7d68d5" />
 
 ---
 
-### 11. Scatter Plot Driver
-<!-- 📷 SS: Grid 2×2 scatter plot — hujan vs produksi, pupuk vs produksi, pekerja vs produksi, lahan vs produksi — masing-masing dengan garis tren merah dan nilai r= -->
-![Scatter Driver](docs/11-scatter-driver.png)
+### 12. Feature Importance
+<img width="1918" height="889" alt="image" src="https://github.com/user-attachments/assets/55d728dc-c999-4788-87ff-994d7bdbeb3b" />
 
 ---
 
-### 12. Performa Model Machine Learning
-<!-- 📷 SS: Tabel 3 baris model (Linear Regression, Random Forest, Gradient Boosting) — tampilkan row terbaik dengan highlight hijau dan badge "★ Terbaik", di bawahnya chart evaluasi 3 panel -->
-![Model ML](docs/12-model-ml.png)
+### 13. Forecast 3 Bulan
+<img width="1917" height="878" alt="image" src="https://github.com/user-attachments/assets/1a724120-be9e-4748-b989-5a4507b3d757" />
+<br>
+<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/07742a1f-9b9b-4b2f-94f0-4fb582b02849" />
 
 ---
 
-### 13. Feature Importance
-<!-- 📷 SS: Horizontal bar chart faktor terpenting dari atas ke bawah — tampilkan semua 7 fitur dengan nilai dan warna hijau/teal -->
-![Feature Importance](docs/13-feature-importance.png)
+### 14. What-If Scenario Simulator
+<img width="1919" height="882" alt="image" src="https://github.com/user-attachments/assets/dc0c4541-e169-43fb-9097-3a1aa8648f9b" />
+
 
 ---
 
-### 14. Forecast 3 Bulan
-<!-- 📷 SS: Chart grouped bar forecast per estate dengan error bar, di bawahnya tabel forecast dengan kolom Bulan+1/+2/+3, Aktual, Tren — tampilkan nilai ▲/▼ -->
-![Forecast](docs/14-forecast.png)
+### 15. Analisis Perbandingan YoY
+<img width="1913" height="900" alt="image" src="https://github.com/user-attachments/assets/752f895b-62bb-4eba-acd2-2ee10083f39f" />
+<br>
+<img width="1907" height="876" alt="image" src="https://github.com/user-attachments/assets/db54602e-a309-4820-9f59-a5f54d5963a4" />
 
 ---
 
-### 15. What-If Scenario Simulator
-<!-- 📷 SS: Form simulator dengan 6 input (estate dropdown, bulan, luas, hujan, pekerja, pupuk) dan di bawahnya result card gelap dengan angka prediksi besar -->
-![Simulator](docs/15-simulator.png)
+### 16. Chat with Your Data
+<img width="1919" height="884" alt="image" src="https://github.com/user-attachments/assets/a685201c-c435-4239-995c-c003692aa571" />
+
 
 ---
 
-### 16. Analisis Perbandingan YoY
-<!-- 📷 SS: Section comparative — 3 card ringkasan (periode A, periode B, % perubahan), chart grouped bar per estate, AI insight di bawah -->
-![Comparative YoY](docs/16-comparative-yoy.png)
+### 17. PDF Annual Report — Cover Page
+<img width="800" height="795" alt="image" src="https://github.com/user-attachments/assets/9d91a53b-a105-4b30-88c3-ee874c122d1a" />
+---
+
+### 18. PDF Annual Report — Isi Halaman
+<img width="786" height="777" alt="image" src="https://github.com/user-attachments/assets/b119ce4e-1f8a-4bcc-a54d-16acf468b409" />
+
 
 ---
 
-### 17. Chat with Your Data
-<!-- 📷 SS: Layar penuh chat window terbuka — tampilkan 3–4 giliran percakapan (user tanya + AI jawab dengan angka spesifik), tombol quick question di atas input -->
-![Chat AI](docs/17-chat-ai.png)
+### 19. Excel Report
+<img width="1284" height="700" alt="image" src="https://github.com/user-attachments/assets/14d0d777-66c2-448e-b856-8207aaa05b05" />
+<br>
+<img width="1609" height="421" alt="image" src="https://github.com/user-attachments/assets/c7c10c12-2796-4ae4-b296-ce01a88e1f59" />
+<br>
+<img width="1218" height="706" alt="image" src="https://github.com/user-attachments/assets/308f2985-2629-4b54-a2c6-609360dd3559" />
+<br>
+<img width="1378" height="336" alt="image" src="https://github.com/user-attachments/assets/b269c6bf-51c3-442d-8342-5603ae622032" />
 
----
-
-### 18. PDF Annual Report — Cover Page
-<!-- 📷 SS: Buka file Lonsum_AnnualReport.pdf — tampilkan halaman cover dengan background gelap, lingkaran logo, teks "PLANTATION ANNUAL REPORT", 4 card statistik di bawah -->
-![PDF Cover](docs/18-pdf-cover.png)
-
----
-
-### 19. PDF Annual Report — Isi Halaman
-<!-- 📷 SS: Buka halaman isi PDF (misal seksi 5 atau 6) — tampilkan header hijau, tabel model ML atau tabel forecast, dan kotak AI insight hijau muda -->
-![PDF Content](docs/19-pdf-content.png)
-
----
-
-### 20. Excel Report
-<!-- 📷 SS: Buka file Laporan_Lonsum_Produksi.xlsx — tampilkan tab sheet berwarna di bawah, header hijau, baris data dengan warna selang-seling -->
-![Excel Report](docs/20-excel-report.png)
 
 ---
 
